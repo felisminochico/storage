@@ -143,6 +143,7 @@ main > section > div > fieldset > legend{
 
 main > section > div#msg-erro{
     display: none;
+    text-align: center;
 }
 
 main > section > div#msg-erro > p{
