@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768.1px){
+    main > section > div > fieldset{
+        width: 600px;
+    }
+
+    main > section > div > button, a{
+        width: 585px;
+    }
+
+    main > section > div > fieldset > p > input{
+        padding: 10px;
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 600.1px) and (max-width: 768px){
+    main > section > div > fieldset{
+        width: 80%;
+    }
+
+    main > section > div > button, a{
+        width: 80%;
+    }
+
+    main > section > div > fieldset > p > input{
+        padding: 10px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    main > section > div > fieldset{
+        width: 90%;
+    }
+
+    main > section > div > button, a{
+        width: 90%;
+    }
+
+    main > section > div > fieldset > p > input{
+        padding: 8px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    main > section > div > fieldset{
+        width: 90%;
+    }
+
+    main > section > div > button, a{
+        width: 90%;
+    }
+
+    main > section > div > fieldset > p > input{
+        padding: 6px;
+    }
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+header{
+    background-color: rgb(3, 3, 77);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 2.8em;
+    font-style: italic;
+    font-weight: normal;
+    padding: 12px 0px;
+}
+
+main > section{
+    padding: 20px 10px;
+}
+
+main > section > h2{
+    font-size: 1.7em;
+    font-weight: normal;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+main > section > div#login{
+    display: grid;
+    gap: 20px 0px;
+    margin-bottom: 20px;
+}
+
+main > section > div > fieldset{
+    border-radius: 10px;
+    display: grid;
+    gap: 20px 0px;
+    margin: 0px auto;
+    padding: 12px 6px;
+}
+
+main > section > div > button{
+    background-color: rgb(70, 145, 70);
+    color: white;
+    font-size: 1em;
+    margin: 0px auto;
+    padding: 12px 0px;
+}
+
+main > section > div > a{
+    background-color: rgb(3, 3, 77);
+    border-radius: 10px;
+    color: white;
+    display: none;
+    font-size: 1em;
+    margin: auto;
+    padding: 16px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+main > section > div > fieldset > legend{
+    color: rgb(3, 3, 77);
+    font-size: 1.2em;
+    padding: 0px 4px;
+}
+
+main > section > div#msg-erro{
+    display: none;
+}
+
+main > section > div#msg-erro > p{
+    line-height: 1.4em;
+}
+
+footer{
+    background-color: rgb(3, 3, 77);
+    color: white;
+    display: grid;
+    font-style: italic;
+    gap: 10px 0px;
+    place-items: center;
+    padding: 40px 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/login.css" type="text/css">
+    <title>Início de Sessão</title>
+</head>
+<body>
+    <header>
+        <h1>SAAP</h1>
+        <p>Site de Armazenamento de Arquivos Pessoais</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Faça seu login</h2>
+            <div id="login">
+                <fieldset><legend>Dados de acesso</legend>
+                    <p><span>Usuário</span> <br> <input type="text" name="usuario" id="usuario" placeholder="nomesobrenome"></p>
+                    <p><span>Senha</span> <br> <input type="password" name="senha" id="senha" placeholder="6 dígitos"></p>
+                </fieldset>
+                <button disabled>Verificar</button>
+                <a href="usuarios/felisminochico.html" target="_self" id="acessoFelismino">Entrar</a>
+            </div>
+
+            <div id="msg-erro">
+                <p><strong style="color: red;">Atenção:</strong> Usuário ou Senha incorrectos. Verifique os dados e tente novamente.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>&copy; 2025</span>
+        <span>Felismino Chico</span>
+    </footer>
+
+    <script src="javascript/login.js" type="text/javascript"></script>
+</body>
+</html>
