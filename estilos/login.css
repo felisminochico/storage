@@ -108,6 +108,7 @@ main > section > div#login{
 }
 
 main > section > div > fieldset{
+    background-color: rgba(70, 145, 70, 0.26);
     border-radius: 10px;
     display: grid;
     gap: 20px 0px;

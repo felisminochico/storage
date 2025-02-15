@@ -30,6 +30,7 @@ function verificarDados(){
     botaoVerificar.style.cursor = 'auto'
     mensagemErro.style.display = 'none'
     if(usuario.value == "felisminochico" && senha.value == 399471){
+        // window.document.body.style.cursor = 'progress'
         botaoVerificar.innerHTML = 'Verificando...';
         botaoVerificar.disabled = true
         botaoVerificar.style.backgroundColor = 'rgb(70, 145, 70)'
