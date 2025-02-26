@@ -35,7 +35,7 @@ function verificarDados(){
         botaoVerificar.disabled = true
         botaoVerificar.style.backgroundColor = 'rgb(70, 145, 70)'
         setTimeout(function(){
-            botaoVerificar.innerHTML = 'Usuário encontrado';
+            botaoVerificar.style.display = 'none'
             botaoVerificar.style.backgroundColor = 'rgb(2, 60, 2)'
             acessoFelismino.style.display = 'block'
         }, 5000)
