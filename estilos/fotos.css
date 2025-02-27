@@ -38,9 +38,9 @@ header > menu{
 header > menu > div#div-menu{
     grid-column: 1;
 
-    span{
+    img{
         cursor: pointer;
-        font-size: 1.3em;
+        width: 30px;
     }
 }
 
