@@ -19,7 +19,7 @@ body::-webkit-scrollbar{
 header{
     background-color: rgb(3, 3, 65);
     color: white;
-    margin-bottom: 75px;
+    margin-bottom: 78px;
     width: 100%;
 }
 
@@ -79,7 +79,7 @@ header > nav{
     div{
         border-top: 1px solid blueviolet;
         border-top-left-radius: 10px;
-        padding: 14px 20px 14px 14px;
+        padding: 14px 20px 14px 8px;
     }
 
     div:hover{
@@ -89,21 +89,12 @@ header > nav{
     div > a{
         color: white;
         font-size: 1.2em;
+        padding: 10px;
         text-decoration: none;
     }
 }
 
 main{
-    width: 100vw;
-    
-    section{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2px;
-        width: 100%;
-
-        img{
-            width: 100px;
-        }
-    }
+    max-width: 1180px;
+    margin: auto;
 }
