@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768.1px) {
+    header > h1{
+        font-size: 3.4em;
+    }
+}
+
+@media screen and (min-width: 600.1px) and (max-width: 768px) {
+    header > h1{
+        font-size: 3.2em;
+    }
+}
+
+@media screen and (min-width: 400.1px) and (max-width: 600px) {
+    header > h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header > h1{
+        font-size: 2.8em;
+    }
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+header{
+    background-color: rgb(3, 3, 77);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    padding: 12px 0px;
+}
+
+main{
+    margin: auto;
+    max-width: 600px;
+    padding: 14px 10px;
+}
+
+main > h1{
+    color: blueviolet;
+    font-size: 1.8em;
+    font-weight: normal;
+    padding: 12px 0px;
+    text-align: center;
+}
+
+main > h2{
+    font-size: 1.4em;
+    font-weight: normal;
+    padding: 15px 0px;
+}
+
+main > p{
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 36px;
+}
+
+main > ul > li, ol > li{
+    line-height: 1.5em;
+    list-style-position: inside;
+}
+
+main > ul{
+    margin-bottom: 20px;
+}
+
+main > ul > li > .links{
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(3, 3, 77);
+    color: white;
+    display: grid;
+    font-style: italic;
+    gap: 10px 0px;
+    place-items: center;
+    padding: 40px 20px;
+}

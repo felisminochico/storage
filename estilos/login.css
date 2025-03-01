@@ -129,6 +129,19 @@ main > section > div > fieldset{
     gap: 20px 0px;
     margin: 0px auto;
     padding: 12px 6px;
+
+    p#contactar-desenvolvedor{
+        border-radius: 5px;
+
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    }
 }
 
 main > section > div > button{

@@ -97,4 +97,6 @@ header > nav{
 main{
     max-width: 1180px;
     margin: auto;
+    transition-duration: .5s;
+    transition-property: filter;
 }
